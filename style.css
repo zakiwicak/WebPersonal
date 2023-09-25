@@ -1,0 +1,105 @@
+/* pewarnaan duniawi */
+#home {
+    background-color: rgb(229, 227, 229);
+}
+
+#about {
+    background-color: rgb(229, 227, 229);
+}
+
+#skill {
+    background-color: rgb(73, 79, 86);
+}
+
+#experience {
+    background-color: rgb(73, 79, 86);
+}
+
+/* #contact {
+
+} */
+
+
+/* home page/hero page */
+#home h1{
+    font-weight: 500;
+    padding: 20px;
+}
+#home p{
+    font-size: 150%;
+    text-align: justify;
+    text-shadow: 1px 1px #413839;
+}
+#home img{
+    height: 500px;
+    width: 320px;
+}
+
+/* about */
+#about h2{
+    font-size: 300%;
+    padding-top: 70px;
+}
+#about p{
+    font-size: 130%;
+    text-align: justify;
+}
+
+/* skill */
+#skill h1{
+    color: whitesmoke;
+    padding-top: 70px;
+    font-size: 300%;
+}
+#skill h2{
+    color: whitesmoke;
+    padding-top: 50px;
+}
+#skill p{
+    color: whitesmoke;
+    font-size: 20px;
+}
+#skill .card p{
+    color: black;
+    text-align: center;
+}
+
+
+/* experience */
+#experience h1{
+    color: whitesmoke;
+    padding-top: 100px;
+    font-size: 300%;
+}
+#experience p, li{
+    color: black;
+    font-size: 30px;
+    text-align: justify;
+}
+
+/* contact */
+#contact h1{
+    padding-bottom: 20px;
+}
+
+hr {border-top: 1px solid #000; width:50%;}
+
+a {color: #000;}
+
+a:link{text-decoration:none;}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
